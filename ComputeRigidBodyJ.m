@@ -1,4 +1,5 @@
 function [S] = ComputeRigidBodyJ(v)
+% Computing the matrix S for the wrenches away from the center of mass.
 
 S = zeros(6,6);
 skew = zeros(3,3);
